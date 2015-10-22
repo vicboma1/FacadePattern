@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>processor</OriginalElement>
+  <nodes>
+    <node x="155.0" y="584.0">processor.ioPorts.IOPortImpl</node>
+    <node x="416.75" y="434.0">processor.memoryController.MemoryController</node>
+    <node x="169.5" y="440.0">processor.ioPorts.IOPort</node>
+    <node x="750.0" y="963.0">processor.memoryController.videoRam.VideoRamImpl</node>
+    <node x="-48.0" y="584.0">processor.sound.SoundImpl</node>
+    <node x="547.0" y="963.0">processor.memoryController.rom.RomImpl</node>
+    <node x="552.5" y="796.0">processor.memoryController.rom.Rom</node>
+    <node x="-1.1388888888889142" y="-0.55555555555555">processor.Processor</node>
+    <node x="767.5" y="789.0">processor.memoryController.videoRam.VideoRam</node>
+    <node x="369.75" y="583.0">processor.memoryController.MemoryControllerImpl</node>
+    <node x="222.75" y="0.0">processor.InternalComponent</node>
+    <node x="0.0" y="168.0">processor.ProcessorImpl</node>
+    <node x="311.5" y="967.0">processor.memoryController.bios.BiosImpl</node>
+    <node x="-48.0" y="438.0">processor.sound.Sound</node>
+    <node x="292.0" y="790.0">processor.memoryController.bios.Bios</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="processor.ProcessorImpl" target="processor.ioPorts.IOPort">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="processor.memoryController.MemoryControllerImpl" target="processor.memoryController.MemoryController">
+      <point x="0.0" y="-59.5" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="processor.ProcessorImpl" target="processor.sound.Sound">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="processor.memoryController.rom.RomImpl" target="processor.memoryController.rom.Rom">
+      <point x="0.0" y="-48.5" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="processor.ProcessorImpl" target="processor.Processor">
+      <point x="-125.5" y="-103.5" />
+      <point x="125.5" y="143.0" />
+      <point x="112.75" y="143.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="processor.memoryController.MemoryControllerImpl" target="processor.memoryController.rom.Rom">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="processor.ProcessorImpl" target="processor.InternalComponent">
+      <point x="125.5" y="-103.5" />
+      <point x="376.5" y="143.0" />
+      <point x="389.25" y="143.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="processor.memoryController.MemoryControllerImpl" target="processor.memoryController.bios.Bios">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="processor.memoryController.MemoryControllerImpl" target="processor.memoryController.videoRam.VideoRam">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="processor.memoryController.videoRam.VideoRamImpl" target="processor.memoryController.videoRam.VideoRam">
+      <point x="0.0" y="-48.5" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="processor.sound.SoundImpl" target="processor.sound.Sound">
+      <point x="0.0" y="-48.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="processor.ioPorts.IOPortImpl" target="processor.ioPorts.IOPort">
+      <point x="0.0" y="-48.5" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="processor.memoryController.bios.BiosImpl" target="processor.memoryController.bios.Bios">
+      <point x="0.0" y="-59.5" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="processor.ProcessorImpl" target="processor.memoryController.MemoryController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="491.0" y="354.66666666666663" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
