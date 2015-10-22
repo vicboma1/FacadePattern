@@ -1,4 +1,8 @@
-# FacadePattern
+# Facade Pattern
+Is an object that provides a simplified interface to a larger body of code.
+* Make a software library easier to use and more readable;
+* Reduce dependencies of outside code on the inner workings of a library.
+* Allowing more flexibility in developing the system;
 
 ## Interface as a DSL
 ```java
