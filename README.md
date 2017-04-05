@@ -1,6 +1,6 @@
 # Facade Pattern
 
-[Analytics](https://ga-beacon.appspot.com/UA-68658653-4/FacadePattern/readme)](https://github.com/igrigorik/ga-beacon)
+[![Analytics](https://ga-beacon.appspot.com/UA-68658653-4/FacadePattern/readme)](https://github.com/igrigorik/ga-beacon)
 
 Is an object that provides a simplified interface to a larger body of code.
 * Make a software library easier to use and more readable;
